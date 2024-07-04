@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Task5{
+  public static void main (String[] args){
+    Scanner sc= new Scanner(System.in);
+    int n = sc.nextInt();
+    int pcount , ncount = 0;
+    for(int i=1;i<=n;i++){      
+      System.out.println("Enter number "+i+":");
+      int in = sc.nextInt();
+      if(in >0){
+        pcount++;
+      }else{
+        ncount++;
+      }
+    }
+  }
+}
